@@ -1,262 +1,351 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/newcss.css" />
-    <link
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="assets/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="assets/newcss.css"/>
+  <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
-  </head>
+  />
+</head>
 
-  <body oncontextmenu="return false">
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Easha</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About-Me
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Qualifications
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Projects
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>Contact-Me
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+<body oncontextmenu="return false">
+<header class="header" id="header">
+  <nav class="nav container">
+    <a href="#" class="nav__logo">Easha</a>
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list grid">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">
+            <i class="uil uil-estate nav__icon"></i>Home
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">
+            <i class="uil uil-user nav__icon"></i>About-Me
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#skills" class="nav__link">
+            <i class="uil uil-file-alt nav__icon"></i>Skills
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#qualification" class="nav__link">
+            <i class="uil uil-briefcase-alt nav__icon"></i>Qualifications
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#portfolio" class="nav__link">
+            <i class="uil uil-scenery nav__icon"></i>Projects
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">
+            <i class="uil uil-message nav__icon"></i>Contact-Me
+          </a>
+        </li>
+      </ul>
+      <i class="uil uil-times nav__close" id="nav-close"></i>
+    </div>
+    <div class="nav__btns">
+      <!-- Theme change button -->
+      <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="uil uil-apps"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- main-->
+
+<main class="main">
+  <!--========================= Home =====================-->
+
+  <section class="home section" id="home">
+    <div class="home__container container grid">
+      <div class="home__content grid">
+        <div class="home__social">
+          <a
+              href="https://www.linkedin.com/in/easha-meher/"
+              target="_blank"
+              class="home__social-icon"
+          >
+            <i class="uil uil-linkedin-alt home__icon"></i>
+          </a>
+
+          <a
+              href="https://github.com/mehereasha2601"
+              target="_blank"
+              class="home__social-icon"
+          >
+            <i class="uil uil-github-alt home__icon"></i>
+          </a>
         </div>
-        <div class="nav__btns">
-          <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- main-->
-
-    <main class="main">
-      <!--========================= Home =====================-->
-
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/easha-meher/"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-linkedin-alt home__icon"></i>
-              </a>
-
-              <a
-                href="https://github.com/mehereasha2601"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-github-alt home__icon"></i>
-              </a>
-            </div>
-            <div class="home__img">
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        <div class="home__img">
+          <svg
+              class="home__blob"
+              viewBox="0 0 200 187"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
                       130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                       97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
                       0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
                       165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                       129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="-50"
-                    y="-50"
-                    xlink:href="assets/img/Pro.jpeg"
-                  />
-                </g>
-              </svg>
-            </div>
-            <div class="home__data">
-              <h1 class="home__title">Hi, I'm Easha Meher Koppisetty</h1>
-              <h3 class="home__subtitle">
-                AI Grad Student at Northeastern University, Boston
-              </h3>
-              <p class="home__description">
-                 Blending a solid foundation in Computer Science with hands-on expertise in Software Development to craft innovative AI solutions. Driven by a passion for leveraging technology to solve real-world challenges, I bring a proactive and self-motivated approach to every project.
-
-
-              </p>
-              <a href="#contact" class="button button--flex">
-                Contact me<i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
-          </div>
+              />
+              <image
+                  class="home__blob-img"
+                  x="-50"
+                  y="-50"
+                  xlink:href="assets/img/Pro.jpeg"
+              />
+            </g>
+          </svg>
         </div>
-      </section>
+        <div class="home__data">
+          <h1 class="home__title">Hi, I'm Easha Meher Koppisetty</h1>
+          <h3 class="home__subtitle">
+            AI Grad Student at Northeastern University, Boston
+          </h3>
+          <p class="home__description">
+            Blending a solid foundation in Computer Science with hands-on expertise in Software
+            Development to craft innovative AI solutions. Driven by a passion for leveraging
+            technology to solve real-world challenges, I bring a proactive and self-motivated
+            approach to every project.
 
-      <!--======================= About========================-->
 
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
-
-        <div class="about__container container grid">
-          <img src="assets\img\about.jpg" alt="" class="about__img" />
-
-          <div class="about__data">
-            <p class="about__description">
-             I thrive in fast-paced, dynamic environments where curiosity and creativity fuel growth. Whether unraveling the complexities of machine learning algorithms or designing impactful solutions, I embrace challenges as opportunities to excel. My insatiable curiosity for AI and machine learning pushes me to stay at the cutting edge of innovation, continuously learning and refining my skills.
-
-              From developing intelligent systems to collaborating on high-impact projects, I am eager to contribute my expertise and enthusiasm to create transformative technologies that make a difference. </p>
-
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">3.267</span>
-                <span class="about__info-name">Aggregate <br />CGPA</span>
-              </div>
-
-              <div>
-                <span class="about__info-title">15+</span>
-                <span class="about__info-name"
-                  >
-                  Projects</span
-                >
-              </div>
-
-              <div>
-                <span class="about__info-title">36+</span>
-                <span class="about__info-name">Months <br />experience</span>
-              </div>
-            </div>
-
-            <div class="about__buttons">
-              <a download="" href="assets\MyCV.pdf" class="button button--flex">
-                Download CV<i class="fas fa-download button__icon"></i>
-              </a>
-            </div>
-          </div>
+          </p>
+          <a href="#contact" class="button button--flex">
+            Contact me<i class="uil uil-message button__icon"></i>
+          </a>
         </div>
-      </section>
+      </div>
 
-      <!--===================== SKILLS =====================-->
+      <div class="home__scroll">
+        <a href="#about" class="home__scroll-button button--flex">
+          <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+          <span class="home__scroll-name">Scroll down</span>
+          <i class="uil uil-arrow-down home__scroll-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical expertise</span>
+  <!--======================= About========================-->
 
-        <div class="skills__container container grid">
+  <section class="about section" id="about">
+    <h2 class="section__title">About Me</h2>
+    <span class="section__subtitle">My introduction</span>
+
+    <div class="about__container container grid">
+      <img src="assets\img\about.jpg" alt="" class="about__img"/>
+
+      <div class="about__data">
+        <p class="about__description">
+          I thrive in fast-paced, dynamic environments where curiosity and creativity fuel growth.
+          Whether unraveling the complexities of machine learning algorithms or designing impactful
+          solutions, I embrace challenges as opportunities to excel. My insatiable curiosity for AI
+          and machine learning pushes me to stay at the cutting edge of innovation, continuously
+          learning and refining my skills.
+
+          From developing intelligent systems to collaborating on high-impact projects, I am eager
+          to contribute my expertise and enthusiasm to create transformative technologies that make
+          a difference. </p>
+
+        <div class="about__info">
           <div>
-            <!--==================== Skill 1 =================-->
+            <span class="about__info-title">3.267</span>
+            <span class="about__info-name">Aggregate <br/>CGPA</span>
+          </div>
+
+          <div>
+            <span class="about__info-title">15+</span>
+            <span class="about__info-name"
+            >
+                  Projects</span
+            >
+          </div>
+
+          <div>
+            <span class="about__info-title">36+</span>
+            <span class="about__info-name">Months <br/>experience</span>
+          </div>
+        </div>
+
+        <div class="about__buttons">
+          <a download="" href="assets\MyCV.pdf" class="button button--flex">
+            Download CV<i class="fas fa-download button__icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--===================== SKILLS =====================-->
+
+  <section class="skills section" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <span class="section__subtitle">My technical expertise</span>
+
+    <div class="skills__container container grid">
+      <div>
+        <!--==================== Skill 1 =================-->
+        <div class="skills__content skills__open">
+          <div class="skills__header">
+            <i class="fas fa-pencil-ruler skills__icon"></i>
+
+            <div>
+              <h1 class="skills__title">Programming Languages</h1>
+            </div>
+
+            <i class="uil uil-angle-down skills__arrow"></i>
+          </div>
+
+
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Python </h3>
+              </div>
+
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Java </h3>
+              </div>
+
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">JavaScript </h3>
+              </div>
+
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">MATLAB </h3>
+              </div>
+
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">R </h3>
+              </div>
+
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">SQL </h3>
+              </div>
+
+
+            </div>
+          </div>
+
+          <!--==================== Skill 2 =================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="fas fa-pencil-ruler skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Machine Learning</h1>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Supervised ML </h3>
+                </div>
+
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Unsupervised ML </h3>
+                </div>
+
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Reinforcement Learning </h3>
+                </div>
+
+
+              </div>
+            </div>
+
+
+            <!--==================== Skill 3 =================-->
             <div class="skills__content skills__open">
               <div class="skills__header">
                 <i class="fas fa-pencil-ruler skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Programming Languages</h1>
+                  <h1 class="skills__title">Deep Learning</h1>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
               </div>
-              
+
 
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Python </h3>
+                    <h3 class="skills__name">CNN </h3>
                   </div>
-                  
+
                 </div>
-                
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Java </h3>
-                    </div>
-                    
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">JavaScript </h3>
-                    </div>
 
-                  </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">MATLAB </h3>
+                    <h3 class="skills__name">RNN </h3>
                   </div>
-                    
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">R  </h3>
-                    </div>
 
-                  </div>
+                </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">SQL </h3>
+                    <h3 class="skills__name">GAN </h3>
                   </div>
-                
-                
+
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Transformers </h3>
+                  </div>
+
+
+                </div>
               </div>
-            </div>
 
-              <!--==================== Skill 2 =================-->
+
+              <!--==================== Skill 4 =================-->
               <div class="skills__content skills__open">
                 <div class="skills__header">
                   <i class="fas fa-pencil-ruler skills__icon"></i>
 
                   <div>
-                    <h1 class="skills__title">Machine Learning</h1>
+                    <h1 class="skills__title">Natural Language Processing</h1>
                   </div>
 
                   <i class="uil uil-angle-down skills__arrow"></i>
@@ -266,35 +355,38 @@
                 <div class="skills__list grid">
                   <div class="skills__data">
                     <div class="skills__titles">
-                      <h3 class="skills__name">Supervised ML </h3>
+                      <h3 class="skills__name">Text processing </h3>
                     </div>
 
                   </div>
 
                   <div class="skills__data">
                     <div class="skills__titles">
-                      <h3 class="skills__name">Unsupervised ML </h3>
+                      <h3 class="skills__name">Sentiment Analysis </h3>
                     </div>
 
                   </div>
                   <div class="skills__data">
                     <div class="skills__titles">
-                      <h3 class="skills__name">Reinforcement Learning </h3>
+                      <h3 class="skills__name">Machine Translation </h3>
+                    </div>
+
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Style Transfer </h3>
                     </div>
 
 
                   </div>
                 </div>
-
-
-
-                <!--==================== Skill 3 =================-->
+                <!--==================== Skill 5 =================-->
                 <div class="skills__content skills__open">
                   <div class="skills__header">
                     <i class="fas fa-pencil-ruler skills__icon"></i>
 
                     <div>
-                      <h1 class="skills__title">Deep Learning</h1>
+                      <h1 class="skills__title">Computer Vision</h1>
                     </div>
 
                     <i class="uil uil-angle-down skills__arrow"></i>
@@ -304,837 +396,644 @@
                   <div class="skills__list grid">
                     <div class="skills__data">
                       <div class="skills__titles">
-                        <h3 class="skills__name">CNN </h3>
+                        <h3 class="skills__name">Image Classification </h3>
                       </div>
 
                     </div>
 
                     <div class="skills__data">
                       <div class="skills__titles">
-                        <h3 class="skills__name">RNN </h3>
+                        <h3 class="skills__name">Object Detection </h3>
                       </div>
 
                     </div>
                     <div class="skills__data">
                       <div class="skills__titles">
-                        <h3 class="skills__name">GAN </h3>
-                      </div>
-
-                    </div>
-                    <div class="skills__data">
-                      <div class="skills__titles">
-                        <h3 class="skills__name">Transformers </h3>
+                        <h3 class="skills__name">Semantic Segmentation </h3>
                       </div>
 
 
                     </div>
                   </div>
 
-
-                  <!--==================== Skill 3 =================-->
-                  <div class="skills__content skills__open">
+                  <!--==================== Skill 6 =================-->
+                  <div class="skills__content skills__close">
                     <div class="skills__header">
-                      <i class="fas fa-pencil-ruler skills__icon"></i>
-
+                      <i class="fas fa-swatchbook skills__icon"></i>
                       <div>
-                        <h1 class="skills__title">Natural Language Processing</h1>
+                        <h1 class="skills__title">Tools and Technologies</h1>
                       </div>
 
                       <i class="uil uil-angle-down skills__arrow"></i>
                     </div>
 
-
                     <div class="skills__list grid">
                       <div class="skills__data">
                         <div class="skills__titles">
-                          <h3 class="skills__name">Text processing </h3>
-                        </div>
-
-                      </div>
-
-                      <div class="skills__data">
-                        <div class="skills__titles">
-                          <h3 class="skills__name">Sentiment Analysis </h3>
+                          <h3 class="skills__name">TensorFlow</h3>
                         </div>
 
                       </div>
                       <div class="skills__data">
                         <div class="skills__titles">
-                          <h3 class="skills__name">Machine Translation </h3>
+                          <h3 class="skills__name">PyTorch</h3>
                         </div>
 
                       </div>
                       <div class="skills__data">
                         <div class="skills__titles">
-                          <h3 class="skills__name">Style Transfer </h3>
+                          <h3 class="skills__name">Keras</h3>
                         </div>
 
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">scikit-learn</h3>
+                        </div>
+
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Hugging Face</h3>
+                        </div>
+
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">GIT</h3>
+                        </div>
+
+                      </div>
+                      <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">AWS</h3>
+                        </div>
 
                       </div>
                     </div>
-                    <!--==================== Skill 3 =================-->
-                    <div class="skills__content skills__open">
-                      <div class="skills__header">
-                        <i class="fas fa-pencil-ruler skills__icon"></i>
-
-                        <div>
-                          <h1 class="skills__title">Image Processing</h1>
-                        </div>
-
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                      </div>
-
-
-                      <div class="skills__list grid">
-                        <div class="skills__data">
-                          <div class="skills__titles">
-                            <h3 class="skills__name">Image Classification </h3>
-                          </div>
-
-                        </div>
-
-                        <div class="skills__data">
-                          <div class="skills__titles">
-                            <h3 class="skills__name">Object Detection </h3>
-                          </div>
-
-                        </div>
-                        <div class="skills__data">
-                          <div class="skills__titles">
-                            <h3 class="skills__name">Semantic Segmentation </h3>
-                          </div>
-
-
-                        </div>
-                      </div>
-
-
-                    <!--==================== Skill 2 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-code skills__icon"></i>
-
-                <div>
-                  <h1 class="skills__title">Artificial Intelligence</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Machine Learning:</h3>
                   </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Supervised ML</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Unsupervised ML</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Reinforcement Learning</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Deep Learning:</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">CNN</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">RNN</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">GAN</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Transformers</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Natural Language Processing:</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Text processing</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name"> Sentiment Analysis</h3>
-                  </div>
-
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Machine Translation</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Style Transfer</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Image Processing:</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Image Classification</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Object Detection</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Semantic Segmentation</h3>
-                  </div>
-
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Optimization Techniques: </h3>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Gradient Descent</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Hyperparameter tuning</h3>
-                  </div>
-                  
-                </div>
-                
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <!--==================== Skill 3 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-swatchbook skills__icon"></i>
-                <div>
-                  <h1 class="skills__title">Tools and Technologies</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Machine Learning</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Deep Learning</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Natural Language Processing</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Computer Vision</h3>
-                  </div>
-
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Optimization Techniques</h3>
-                  </div>
-
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        </div>
-      </section>
+  </section>
 
-      <!--==================== Qualifications ==================-->
+  <!--==================== Qualifications ==================-->
 
-      <section
-        class="qualification__section service__section"
-        id="qualification"
-      >
+  <section
+      class="qualification__section service__section"
+      id="qualification"
+  >
 
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
+    <h2 class="section__title">Qualification</h2>
+    <span class="section__subtitle">My personal journey</span>
 
+    <div
+        class="qualification__container container grid services__container"
+    >
+      <div class="qualification__tabs">
         <div
-          class="qualification__container container grid services__container"
+            class="qualification__button button--flex qualification__active"
+            data-target="#education"
         >
-          <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#education"
-            >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
-            </div>
-          </div>
-
-          <div class="qualification__sections">
-            <!--====== Qualification Content 1 ======-->
-            <div
-              class="qualification__content qualifiation__active services__content"
-              data-content
-              id="education"
-            >
-              <!--====== Qualification 1 ======-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Vellore Institute Of Technology</h3>
-                  <span class="qualification__subtitle"
-                    >Vellore, India <br />Bachelor's in Computer Science</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    2017- 2021
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Bachelor's Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Graduated with a strong foundation in computer science principles and programming.
-                            Gained expertise in data structures, algorithms, software development, and machine learning.
-                            Undertook hands-on projects, including building a stock portfolio system and implementing AI/ML models.
-                            Participated in collaborative team projects and hackathons, enhancing problem-solving and technical skills.
-
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>GPA 8.69</p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Worked as Vice President in student club Code Chef.</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!--====== Qualification 2 ======-->
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-                <div>
-                  <h3 class="qualification__title">Software Developer at Pharmeasy</h3>
-                  <span class="qualification__subtitle"
-                    >Bangalore,India <br /> Work Experience </span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    2021- 2023
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Brief Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Subjects studied: Physics, Chemistry, Maths,
-                            English, Statistics , Hindi.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Scored 87.5%</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--====== Qualification 3 ======-->
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-                <div>
-                  <h3 class="qualification__title">Senior Software Developer at Infoedge</h3>
-                  <span class="qualification__subtitle"
-                  >Bangalore, India <br /> Work Experience </span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    2023-2023
-                  </div>
-                  <span
-                      class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Brief Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                              class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Subjects studied: Physics, Chemistry, Maths,
-                            English, Statistics , Hindi.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                              class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Scored 87.5%</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--====== Qualification 4 ======-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Northeastern University</h3>
-                  <span class="qualification__subtitle"
-                  >Boston, USA <br />Master's in Artificial Intelligence</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    2024 - Present
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">College Summary :</h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Studying core subjects of IT including DSA, Embedded
-                            systems, Design analysis and algorithm, Operating
-                            systems, and Computer architecture .
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>Scored an aggregate of 3.267 CGPA till now.</p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Teaching Assistant for Object Oriented Design
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Contributing member of Rewriting the Code.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            CodeBlaze hackathon winners under open innovation.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Runners in Edu-Vitality Hackathon in the track of AI in Education.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Finalist in Dark Pattern Buster Hackathon conducted by Department of Consumer Affairs of India.
-                          </p>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!--<span class="qualification__line"></span>-->
-                </div>
-              </div>
-            </div>
-          </div>
+          <i class="uil uil-graduation-cap qualification__icon"></i>
+          Education
         </div>
-      </section>
+      </div>
 
-      <!--=================== Portfolio ===================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Projects</h2>
-        <span class="section__subtitle">Most recent work</span>
-
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- ------------------------portfolio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio5.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Bayesian Uncertainty Quantification in Medical QA Systems
-                </h3>
-                <p class="portfolio__description">
-                  Implemented advanced AI models, including LLAMA, BERT, and MISTRAL, within a Bayesian framework to quantify uncertainty in medical question-answering systems. Leveraged these state-of-the-art language models for accurate natural language understanding while integrating probabilistic methods to assess prediction confidence. Focused on enhancing the interpretability and reliability of the system, ensuring robust decision-making in critical healthcare scenarios. Evaluated model performance with uncertainty-aware metrics, highlighting the practicality and trustworthiness of the approach in real-world medical applications.
-                </p>
-                <a
-                  href="https://github.com/mehereasha2601/Bayesian-Uncertainty-Quantification-in-Medical-QA-Systems"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-
+      <div class="qualification__sections">
+        <!--====== Qualification Content 1 ======-->
+        <div
+            class="qualification__content qualifiation__active services__content"
+            data-content
+            id="education"
+        >
+          <!--====== Qualification 1 ======-->
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">Vellore Institute Of Technology</h3>
+              <span class="qualification__subtitle"
+              >Vellore, India <br/>Bachelor's in Computer Science</span
+              >
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i>
+                2017- 2021
               </div>
-            </div>
-            <!-- ------------------------portfolio 2-------------------- -->
+              <span
+                  class="button button--flex button--small button--link services__button"
+              >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">
+                    Bachelor's Summary :
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__moda-icon"
+                      ></i>
+                      <p>
+                        Graduated with a strong foundation in computer science principles and
+                        programming.
+                        Gained expertise in data structures, algorithms, software development, and
+                        machine learning.
+                        Undertook hands-on projects, including building a stock portfolio system and
+                        implementing AI/ML models.
+                        Participated in collaborative team projects and hackathons, enhancing
+                        problem-solving and technical skills.
 
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio1.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Pen to Code: Emulating Shakespeare’s Prose through Style Transfer
-                </h3>
-                <p class="portfolio__description">
-                  Developed a Copy-Enriched Sequence-to-Sequence (Seq2Seq) NLP model using Python and PyTorch to translate modern English into Shakespearean prose. Leveraged advanced AI models, including Transformer architectures like BERT and GPT, to capture linguistic nuances and stylistic elements of Shakespearean writing. Focused on data preprocessing, hyperparameter tuning, and linguistic style accuracy, achieving 94% fidelity in emulating Shakespeare’s prose. Delivered a robust, end-to-end solution that combines AI-driven style transfer with interpretable language generation for creative and educational applications.
-                </p>
-                <a
-                  href="https://github.com/mehereasha2601/Pen-to-Code-Emulating-Shakespeare-s-Prose-through-Style-Transfer"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://github.com/mehereasha2601/Pen-to-Code-Emulating-Shakespeare-s-Prose-through-Style-Transfer"
-                  class="button button--flex button--small portfolio__button"
-                >
-                </a>
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__moda-icon"
+                      ></i>
+                      <p>GPA 8.69</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__moda-icon"
+                      ></i>
+                      <p>Worked as Vice President in student club Code Chef.</p>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-
-            <!-- ------------------------portfolio 3-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio2.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Analyzing Cricket: Shot Recognition & Similarity</h3>
-                <p class="portfolio__description">
-                  Spotify Clone is a web app developed using HTML, CSS, and
-                  JavaScript. It recreates Spotify's interface and features,
-                  allowing users to browse, search, and play songs, create
-                  playlists, and discover new music. Responsive design ensures a
-                  seamless experience on any device. Contributions are welcome!
-                </p>
-                <a
-                  href="https://github.com/mehereasha2601/Cricshot-Analysis"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://github.com/mehereasha2601/Cricshot-Analysis"
-                  class="button button--flex button--small portfolio__button"
-                >
-                </a>
-              </div>
-            </div>
-            <!-- ------------------------portfolio 4-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio3.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Stock Portfolio Simulator</h3>
-                <p class="portfolio__description">
-                  Designed and developed a full-stack stock portfolio simulator using Java, enabling users to create, analyze, and manage stock portfolios. Integrated real-time financial data through Alpha Vantage APIs and implemented efficient backend processes for seamless scalability and reliability. Incorporated advanced machine learning models to analyze stock trends and optimize portfolio recommendations. Delivered a user-friendly, robust platform for financial analysis and transaction simulation, showcasing practical expertise in API integration, full-stack development, and data-driven insights.
-                </p>
-                <a
-                  href="https://github.com/mehereasha2601/Stock-Portfolio-Simulator"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://github.com/mehereasha2601/Stock-Portfolio-Simulator"
-                  class="button button--flex button--small portfolio__button"
-                >
-                </a>
-              </div>
-            </div>
-
-            <!-- ------------------------portfolio 5-------------------- -->
-
-          </div>
-
-          <!-- add arrows -->
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
-          <!-- add pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-      <!--===================== Contact Me =====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
-
-        <div class="contact__container container grid">
-          <div>
-            <div class="contact__information">
-              <i class="uil uil-calling contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Contact Me</h3>
-                <span class="contact__subtitle"
-                  ><a href="mobile:8572943442"></a>8572943442</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-envelope-minus contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle"
-                  >mehereasha2601@gmail.com</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-map-marker contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle"
-                  >Boston, Massachusetts, USA</span
-                >
-              </div>
-            </div>
-          </div>
-
-          <form action="" class="contact__form grid">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="content__label">Name</label>
-                <input type="text" class="contact__input" />
-              </div>
-
-              <div class="contact__content">
-                <label for="" class="content__label">Email</label>
-                <input type="Email" class="contact__input" />
-              </div>
-            </div>
-
-            <div class="contact__content">
-              <label for="" class="content__label">Message</label>
-              <textarea
-                name=""
-                id=""
-                cols="0"
-                rows="7"
-                class="contact__input"
-              ></textarea>
             </div>
 
             <div>
-              <a
-                href=" mailto: mehereasha2601@gmail.com?subject=Testing out mailto! &body=This is only a test!"
-                class="button button--flex"
-              >
-                Send Message
-                <i class="uil uil-message button__icon"></i>
-              </a>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
             </div>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!--================== Footer ===============-->
-    <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div>
-            <h1 class="footer__title">Easha Meher</h1>
-            <span class="footer__subtitle"
-              >Artificial Intelligence Student</span
-            >
           </div>
 
-          <ul class="footer__links">
-            <li>
-              <a href="#qualification" class="footer__link">Qualification</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" class="footer__link">Contact-Me</a>
-            </li>
-          </ul>
+          <!--====== Qualification 2 ======-->
+          <div class="qualification__data">
+            <div></div>
 
-          <div class="footer__socials">
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+            <div>
+              <h3 class="qualification__title">Software Developer at Pharmeasy</h3>
+              <span class="qualification__subtitle"
+              >Bangalore,India <br/> Work Experience </span
+              >
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i>
+                2021- 2023
+              </div>
+              <span
+                  class="button button--flex button--small button--link services__button"
+              >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">
+                    Brief Summary :
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__moda-icon"
+                      ></i>
+                      <p>
+                        Subjects studied: Physics, Chemistry, Maths,
+                        English, Statistics , Hindi.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__moda-icon"
+                      ></i>
+                      <p>Scored 87.5%</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--====== Qualification 3 ======-->
+          <div class="qualification__data">
+            <div></div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <span class="qualification__line"></span>
+            </div>
+            <div>
+              <h3 class="qualification__title">Senior Software Developer at Infoedge</h3>
+              <span class="qualification__subtitle"
+              >Bangalore, India <br/> Work Experience </span
+              >
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i>
+                2023-2023
+              </div>
+              <span
+                  class="button button--flex button--small button--link services__button"
+              >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">
+                    Brief Summary :
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__moda-icon"
+                      ></i>
+                      <p>
+                        Subjects studied: Physics, Chemistry, Maths,
+                        English, Statistics , Hindi.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__moda-icon"
+                      ></i>
+                      <p>Scored 87.5%</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--====== Qualification 4 ======-->
+          <div class="qualification__data">
+            <div>
+              <h3 class="qualification__title">Northeastern University</h3>
+              <span class="qualification__subtitle"
+              >Boston, USA <br/>Master's in Artificial Intelligence</span
+              >
+              <div class="qualification__calender">
+                <i class="uil uil-calendar-alt"></i>
+                2024 - Present
+              </div>
+              <span
+                  class="button button--flex button--small button--link services__button"
+              >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">College Summary :</h4>
+                  <i class="uil uil-times services__modal-close"></i>
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__modal-icon"
+                      ></i>
+                      <p>
+                        Studying core subjects of IT including DSA, Embedded
+                        systems, Design analysis and algorithm, Operating
+                        systems, and Computer architecture .
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__modal-icon"
+                      ></i>
+                      <p>Scored an aggregate of 3.267 CGPA till now.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__modal-icon"
+                      ></i>
+                      <p>
+                        Teaching Assistant for Object Oriented Design
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__modal-icon"
+                      ></i>
+                      <p>
+                        Contributing member of Rewriting the Code.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__modal-icon"
+                      ></i>
+                      <p>
+                        CodeBlaze hackathon winners under open innovation.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__modal-icon"
+                      ></i>
+                      <p>
+                        Runners in Edu-Vitality Hackathon in the track of AI in Education.
+                      </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i
+                          class="uil uil-check-circle services__modal-icon"
+                      ></i>
+                      <p>
+                        Finalist in Dark Pattern Buster Hackathon conducted by Department of
+                        Consumer Affairs of India.
+                      </p>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <span class="qualification__rounder"></span>
+              <!--<span class="qualification__line"></span>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=================== Portfolio ===================-->
+  <section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Projects</h2>
+    <span class="section__subtitle">Most recent work</span>
+
+    <div class="portfolio__container container swiper-container">
+      <div class="swiper-wrapper">
+        <!-- ------------------------portfolio 1-------------------- -->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="assets/img/portfolio5.png" class="portfolio__img"/>
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">
+              Bayesian Uncertainty Quantification in Medical QA Systems
+            </h3>
+            <p class="portfolio__description">
+              Implemented advanced AI models, including LLAMA, BERT, and MISTRAL, within a Bayesian
+              framework to quantify uncertainty in medical question-answering systems. Leveraged
+              these state-of-the-art language models for accurate natural language understanding
+              while integrating probabilistic methods to assess prediction confidence. Focused on
+              enhancing the interpretability and reliability of the system, ensuring robust
+              decision-making in critical healthcare scenarios. Evaluated model performance with
+              uncertainty-aware metrics, highlighting the practicality and trustworthiness of the
+              approach in real-world medical applications.
+            </p>
             <a
-              href="https://www.instagram.com/easha_meher/"
-              class="footer__social"
-              target="__blank"
+                href="https://github.com/mehereasha2601/Bayesian-Uncertainty-Quantification-in-Medical-QA-Systems"
+                class="button button--flex button--small portfolio__button"
             >
-            <i class="fa-brands fa-instagram"></i>
+              GitHub Repository
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+
+          </div>
+        </div>
+        <!-- ------------------------portfolio 2-------------------- -->
+
+        <div class="portfolio__content grid swiper-slide">
+          <img src="assets/img/portfolio1.png" class="portfolio__img"/>
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">
+              Pen to Code: Emulating Shakespeare’s Prose through Style Transfer
+            </h3>
+            <p class="portfolio__description">
+              Developed a Copy-Enriched Sequence-to-Sequence (Seq2Seq) NLP model using Python and
+              PyTorch to translate modern English into Shakespearean prose. Leveraged advanced AI
+              models, including Transformer architectures like BERT and GPT, to capture linguistic
+              nuances and stylistic elements of Shakespearean writing. Focused on data
+              preprocessing, hyperparameter tuning, and linguistic style accuracy, achieving 94%
+              fidelity in emulating Shakespeare’s prose. Delivered a robust, end-to-end solution
+              that combines AI-driven style transfer with interpretable language generation for
+              creative and educational applications.
+            </p>
+            <a
+                href="https://github.com/mehereasha2601/Pen-to-Code-Emulating-Shakespeare-s-Prose-through-Style-Transfer"
+                class="button button--flex button--small portfolio__button"
+            >
+              GitHub Repository
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+            <a
+                href="https://github.com/mehereasha2601/Pen-to-Code-Emulating-Shakespeare-s-Prose-through-Style-Transfer"
+                class="button button--flex button--small portfolio__button"
+            >
             </a>
           </div>
         </div>
 
-        <p class="footer__copy">&#169; Easha. All rights reserved</p>
+        <!-- ------------------------portfolio 3-------------------- -->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="assets/img/portfolio2.png" class="portfolio__img"/>
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">Analyzing Cricket: Shot Recognition & Similarity</h3>
+            <p class="portfolio__description">
+              Spotify Clone is a web app developed using HTML, CSS, and
+              JavaScript. It recreates Spotify's interface and features,
+              allowing users to browse, search, and play songs, create
+              playlists, and discover new music. Responsive design ensures a
+              seamless experience on any device. Contributions are welcome!
+            </p>
+            <a
+                href="https://github.com/mehereasha2601/Cricshot-Analysis"
+                class="button button--flex button--small portfolio__button"
+            >
+              GitHub Repository
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+            <a
+                href="https://github.com/mehereasha2601/Cricshot-Analysis"
+                class="button button--flex button--small portfolio__button"
+            >
+            </a>
+          </div>
+        </div>
+        <!-- ------------------------portfolio 4-------------------- -->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="assets/img/portfolio3.png" class="portfolio__img"/>
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">Stock Portfolio Simulator</h3>
+            <p class="portfolio__description">
+              Designed and developed a full-stack stock portfolio simulator using Java, enabling
+              users to create, analyze, and manage stock portfolios. Integrated real-time financial
+              data through Alpha Vantage APIs and implemented efficient backend processes for
+              seamless scalability and reliability. Incorporated advanced machine learning models to
+              analyze stock trends and optimize portfolio recommendations. Delivered a
+              user-friendly, robust platform for financial analysis and transaction simulation,
+              showcasing practical expertise in API integration, full-stack development, and
+              data-driven insights.
+            </p>
+            <a
+                href="https://github.com/mehereasha2601/Stock-Portfolio-Simulator"
+                class="button button--flex button--small portfolio__button"
+            >
+              GitHub Repository
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+            <a
+                href="https://github.com/mehereasha2601/Stock-Portfolio-Simulator"
+                class="button button--flex button--small portfolio__button"
+            >
+            </a>
+          </div>
+        </div>
+
+        <!-- ------------------------portfolio 5-------------------- -->
+
       </div>
-    </footer>
 
-    <!--================== SCROLL TOP ==================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+      <!-- add arrows -->
+      <div class="swiper-button-next">
+        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+      </div>
+      <!-- add pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
 
-    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-    <script src="assets/ptj.js"></script>
-  </body>
+  <!--===================== Contact Me =====================-->
+  <section class="contact section" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get in touch</span>
+
+    <div class="contact__container container grid">
+      <div>
+        <div class="contact__information">
+          <i class="uil uil-calling contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Contact Me</h3>
+            <span class="contact__subtitle"
+            ><a href="mobile:8572943442"></a>8572943442</span
+            >
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-envelope-minus contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Email</h3>
+            <span class="contact__subtitle"
+            >mehereasha2601@gmail.com</span
+            >
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-map-marker contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Location</h3>
+            <span class="contact__subtitle"
+            >Boston, Massachusetts, USA</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="contact__form grid">
+        <div class="contact__inputs grid">
+          <div class="contact__content">
+            <label for="" class="content__label">Name</label>
+            <input type="text" class="contact__input"/>
+          </div>
+
+          <div class="contact__content">
+            <label for="" class="content__label">Email</label>
+            <input type="Email" class="contact__input"/>
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <label for="" class="content__label">Message</label>
+          <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="7"
+              class="contact__input"
+          ></textarea>
+        </div>
+
+        <div>
+          <a
+              href=" mailto: mehereasha2601@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+              class="button button--flex"
+          >
+            Send Message
+            <i class="uil uil-message button__icon"></i>
+          </a>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!--================== Footer ===============-->
+<footer class="footer">
+  <div class="footer__bg">
+    <div class="footer__container container grid">
+      <div>
+        <h1 class="footer__title">Easha Meher</h1>
+        <span class="footer__subtitle"
+        >Artificial Intelligence Student</span
+        >
+      </div>
+
+      <ul class="footer__links">
+        <li>
+          <a href="#qualification" class="footer__link">Qualification</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="footer__link">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact" class="footer__link">Contact-Me</a>
+        </li>
+      </ul>
+
+      <div class="footer__socials">
+        <a
+            href="https://www.instagram.com/easha_meher/"
+            class="footer__social"
+            target="__blank"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <p class="footer__copy">&#169; Easha. All rights reserved</p>
+  </div>
+</footer>
+
+<!--================== SCROLL TOP ==================-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+<script src="assets/ptj.js"></script>
+</body>
 </html>
